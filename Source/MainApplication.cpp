@@ -1,13 +1,3 @@
-/*
-  ==============================================================================
-
-    MainApplication.cpp
-    Created: 02 May 2020 4:58:15pm
-    Author:  Rochelle Tham
-
-  ==============================================================================
-*/
-
 #include "MainApplication.h"
 #include "MainWindow.h"
 #include "MainComponent.h"
