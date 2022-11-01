@@ -1,13 +1,3 @@
-/*
-  ==============================================================================
-
-    MainComponent.cpp
-    Created: 02 May 2020 4:58:02pm
-    Author:  Rochelle Tham
-
-  ==============================================================================
-*/
-
 #include "MainComponent.h"
 #include "MainApplication.h"
 
@@ -32,10 +22,6 @@ MainComponent::MainComponent()
 
    cpuUsage.setColour(Label::textColourId, Colours::black);
    addAndMakeVisible(cpuUsage);
-
-   //openButton
-//   openButton.addListener(this);
-//   addAndMakeVisible(openButton);
 
    //stopButton
    stopButton.setRadioGroupId(1);
@@ -76,8 +62,6 @@ MainComponent::MainComponent()
 
 MainComponent::~MainComponent() {
    AudioAppComponent::shutdownAudio();
-//   audioSourcePlayer.setSource (nullptr);
-//   deviceManager.removeAudioCallback (&audioSourcePlayer);
 }
 
 void MainComponent::paint (Graphics& gr) {
